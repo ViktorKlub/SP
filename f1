@@ -14,3 +14,4 @@ xx3 + xx3 MOD 10 :> yy4 ;
 
 PUT (xx3);
 PUT (yy4);
+STOP
