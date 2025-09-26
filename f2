@@ -1,5 +1,5 @@
-#PROGRAM ts2;
-START BODY DATA INTEGER32 aa1, bb2, cc3, ma4 ;
+# PROGRAM ts2;
+START DATA INTEGER32 aa1, bb2, cc3, ma4 ;
 GET (aa1);
 GET (bb2);
 GET (cc3);
