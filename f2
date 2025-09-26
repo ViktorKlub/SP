@@ -5,15 +5,15 @@ GET (bb2);
 GET (cc3);
 
 IF aa1 >= bb2 AND aa1 >= cc3 {
- ma4 = aa1
+ aa1 :> ma4
 } ELSE IF bb2 >= aa1 AND bb2 >= cc3 {
- ma4 = bb2
+ bb2 :> ma4
 } ELSE {
- ma4 = cc3
+ cc3 :> ma4
 }
 PUT (ma4);
 
-IF (aa1 = bb2) AND (aa1 = cc3) AND (bb2 = cc3) {
+IF (bb2 :> aa1) AND (cc3 :> aa1) AND (cc3 :> bb2) {
 PUT (1)
 } ELSE {
 PUT (0)
