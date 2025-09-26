@@ -1,5 +1,5 @@
-#PROGRAM ts3;
-STAR BODY DATA INTEGER32 aa1, bb2, cy3, cy4, xv5;
+# PROGRAM ts3;
+STAR DATA INTEGER32 aa1, bb2, cy3, cy4, xv5;
 GET ( aa1 ); 
 GET ( bb2 );
 
